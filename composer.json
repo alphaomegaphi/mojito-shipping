@@ -1,0 +1,6 @@
+{
+    "require": {        
+        "tecnickcom/tcpdf": "^6.3",
+        "mojitowp/exchange-rate": "^1.0"
+    }
+}

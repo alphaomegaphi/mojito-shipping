@@ -1,0 +1,243 @@
+.mojito-settings-wrap{
+	margin: 10px 20px 0 2px;
+}
+.mojito-settings-wrap table{
+	margin: 0;
+}
+.mojito-settings-wrap table .button {
+	vertical-align: middle
+}
+.mojito-box{
+	margin-top: 0;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	background: #FFFFFF;
+	border: 1px solid #ccd0d4;
+	position: relative;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+.mojito-box a{
+	text-decoration: none;
+}
+.mojito-box .title{
+	border-bottom: 1px solid #ccd0d4;
+	margin: 0;
+	padding: 15px;
+}
+.mojito-box .title h3{
+    font-size: 14px;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+}
+.mojito-box .inner {
+    padding: 15px;
+}
+.mojito-box .inner p{
+	margin-top: 0.5em;
+	display: inline-block;
+}
+.mojito-box .inner p.notice {
+	border: none;
+	box-shadow: none;
+	display: block;
+}
+.mojito-hidden{
+	display: none !important;
+}
+.mojito-input-wrap input{
+	width: 25%;
+}
+.mojito-input-wrap select.required.marked,
+.mojito-input-wrap input.required:placeholder-shown{
+    border: 1px solid red !important; /* Red border only if the input is empty */
+}
+.mojito-input-wrap input[type="checkbox"]{
+	width: initial;
+}
+.mojito-input-wrap select {
+	min-width: 25%;
+	width: auto;
+}
+.mojito-input-wrap textarea {
+	width: 25%;
+}
+.mojito-input-wrap input.long {
+	width: 50%;
+}
+.mojito-input-wrap select.long {
+	width: 50%;
+}
+.mojito-input-wrap textarea.long {
+	width: 50%;
+}
+.mojito-input-wrap p.tooltip {	
+	margin-top: 15px;
+	position: relative;
+	display: block;
+	border: 0;
+	max-width: 50%;
+	min-width: 600px;
+}
+.handlediv{
+	display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: 0 0;
+	cursor: pointer;
+	outline: none;
+}
+.handlediv .toggle-indicator:before {
+	margin-top: 4px;
+	width: 20px;
+	border-radius: 50%;
+	text-indent: -1px;
+	content: "\f142";
+	display: inline-block;
+	font: normal 20px/1 dashicons;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none !important;
+}
+.handlediv .toggle-indicator:before {
+	content: "\f140";
+}
+.mojito-box h4 {
+	margin-top: 35px;
+}
+.mojito-box.closed .inner{
+	display: none;
+}
+.mojito-box:not(.closed) .inner {
+	display: block;
+}
+.mojito-settings-wrap .nav-tab.active {
+	background: #FFFFFF;
+}
+.mojito-settings-wrap .tab-content{
+	display: none;
+	padding-top: 20px;
+}
+.mojito-settings-wrap .tab-content.active {
+	display: block;
+}
+.mojito-box .checkbox-container{
+	display: block;
+}
+.mojito-box .inner .success {
+	color: #008000;
+}
+.mojito-box .inner .error {
+	color: #ff0000;
+}
+.mojito-help-link{
+	display: inline-block;
+	margin-left: 10px;
+}
+.mojito-help-link img{
+	width: 12px;
+	height: 12px;
+}
+.mojito-shipping-pymexpress-manual-register,
+.mojito-shipping-pymexpress-manual-request,
+.mojito-shipping-ccr-manual-register,
+.mojito-shipping-ccr-manual-request{
+	cursor: pointer;
+}
+select.working,
+.mojito-shipping-pymexpress-download-pdf.working,
+.mojito-shipping-pymexpress-manual-register.working,
+.mojito-shipping-pymexpress-manual-request.working,
+.mojito-shipping-ccr-download-pdf.working,
+.mojito-shipping-ccr-manual-register.working,
+.mojito-shipping-ccr-manual-request.working{
+    background-image: url(../img/working.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    color: transparent;
+    padding: 10px;
+}
+.tracking-details-admin{
+	border-collapse: collapse;
+	width: 100%;
+}
+.tracking-details-admin th,
+.tracking-details-admin td{
+	  border: 1px solid #ddd;
+	  padding: 8px;
+}
+.tracking-details-admin tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+.tracking-details-admin tr:hover {
+	background-color: #ddd;
+}
+.tracking-details-admin th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+}
+.mojito-pymexpress-ws span,
+.mojito-ccr-ws span{
+	margin-right: 5px;
+	font-weight: 800;
+	display: block;
+}
+.mojito-pymexpress-ws p,
+.mojito-ccr-ws p{
+	display: inline-block;
+}
+.mojito-pymexpress-ws a.download,
+.mojito-ccr-ws a.download{
+	display: inline-block;
+	cursor: pointer;
+}
+.mojito-pymexpress-ws a.download img,
+.mojito-ccr-ws a.download img{
+	width: 40px;
+	padding-left: 10px;
+	position: relative;
+    top: 5px;
+}
+.mojito-pymexpress-ws a.download.working img,
+.mojito-ccr-ws a.download.working img{
+	opacity: 0;
+}
+.mojito-shipping-information-list{
+	list-style: disc;
+    list-style-position: inside;
+    padding-left: 20px;
+}
+.mojito-shipping-information-separator{
+	    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #ddd;
+    height: 1px;
+    overflow: hidden;
+    border: none;
+}
+.mojito-shipping-information-list li p{
+    margin: auto;
+}
+.mojito-shipping-information-list ul {
+	padding-left: 15px;
+}
+#mojito-settings-filter-label{
+	margin-right: 5px;
+    font-size: 16px;
+    line-height: 16px;
+}
+#mojito-settings-filter{
+	margin-top: 15px;
+}
+#mojito-settings-filter-form{
+	float: right;
+}

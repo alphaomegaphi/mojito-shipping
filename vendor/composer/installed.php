@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.5.4.x-dev',
+        'version' => '1.5.4.9999999-dev',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '17cd48547329794b72c0562f50454270f5fe260b',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.5.4.x-dev',
+            'version' => '1.5.4.9999999-dev',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '17cd48547329794b72c0562f50454270f5fe260b',
+            'dev_requirement' => false,
+        ),
+        'mojitowp/exchange-rate' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mojitowp/exchange-rate',
+            'aliases' => array(),
+            'reference' => '485154bcaf22a3df4b36aab27c93c6a3ad161c22',
+            'dev_requirement' => false,
+        ),
+        'tecnickcom/tcpdf' => array(
+            'pretty_version' => '6.7.5',
+            'version' => '6.7.5.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tecnickcom/tcpdf',
+            'aliases' => array(),
+            'reference' => '951eabf0338ec2522bd0d5d9c79b08a3a3d36b36',
+            'dev_requirement' => false,
+        ),
+    ),
+);

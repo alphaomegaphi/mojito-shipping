@@ -1,0 +1,27 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ #mojito_shipping_pymexpress_guide_number_field,
+ #mojito_shipping_ccr_guide_number_field{
+	 display: none;
+ }
+ .mojito-pymexpress-ws-tracking .tracking-details,
+ .mojito-ccr-ws-tracking .tracking-details{
+	 display: none;
+ }
+ .mojito-pymexpress-ws-tracking .tracking-details.open,
+ .mojito-ccr-ws-tracking .tracking-details.open {
+	 display: block;
+ }
+ .mojito-shipping-download-customer-pdf{
+	cursor: pointer;
+ }
+ .mojito-shipping-download-customer-pdf.working{
+	background-image: url(../img/working.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    color: transparent;
+    padding: 10px;
+ }

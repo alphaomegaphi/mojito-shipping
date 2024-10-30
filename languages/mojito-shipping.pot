@@ -1,0 +1,2289 @@
+# Copyright (C) 2024 Mojito Team
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mojito Shipping 1.5.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mojito-shipping\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-03T11:57:21-05:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: mojito-shipping\n"
+
+#. Plugin Name of the plugin
+msgid "Mojito Shipping"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://mojitowp.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Weight-based rates for WooCommerce. Simple method shipping support. Correos de Costa Rica web service support for tracking codes."
+msgstr ""
+
+#. Author of the plugin
+msgid "Mojito Team"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:70
+msgid "Guide"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:72
+#: admin/class-mojito-shipping-admin-pro.php:205
+#: admin/class-mojito-shipping-admin-pro.php:638
+#: admin/class-mojito-shipping-admin-pro.php:1274
+#: admin/class-mojito-shipping-admin.php:226
+#: admin/class-mojito-shipping-admin.php:1122
+msgid "Pymexpress"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:98
+#: admin/class-mojito-shipping-admin-pro.php:101
+#: includes/class-mojito-shipping.php:660
+#: includes/class-mojito-shipping.php:663
+#: includes/class-mojito-shipping.php:1695
+#: includes/class-mojito-shipping.php:1698
+msgid "Click to request. "
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:156
+#: admin/class-mojito-shipping-admin.php:169
+msgid "Carrier settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:157
+#: admin/class-mojito-shipping-admin.php:170
+msgid "Select your Carrier"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:161
+msgid "Carrier"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:164
+#: admin/class-mojito-shipping-admin.php:178
+msgid "Simple weight-based rates"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:166
+#: admin/class-mojito-shipping-admin.php:158
+#: admin/class-mojito-shipping-admin.php:180
+msgid "Correos de Costa Rica - Pymexpress"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:167
+#: admin/class-mojito-shipping-admin.php:159
+#: admin/class-mojito-shipping-admin.php:181
+msgid "Correos de Costa Rica without integration"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:169
+#: admin/class-mojito-shipping-admin.php:183
+msgid "Select your service provider"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:185
+#: admin/class-mojito-shipping-admin-pro.php:669
+#: admin/class-mojito-shipping-admin-pro.php:1254
+#: admin/class-mojito-shipping-admin.php:206
+#: admin/class-mojito-shipping-admin.php:654
+#: admin/class-mojito-shipping-admin.php:1102
+msgid "Your business settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:186
+#: admin/class-mojito-shipping-admin-pro.php:1255
+#: admin/class-mojito-shipping-admin.php:207
+#: admin/class-mojito-shipping-admin.php:1103
+msgid "Set settings for your store."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:190
+#: admin/class-mojito-shipping-admin-pro.php:1259
+#: admin/class-mojito-shipping-admin.php:211
+#: admin/class-mojito-shipping-admin.php:1107
+msgid "Store location"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:194
+#: admin/class-mojito-shipping-admin-pro.php:1263
+#: admin/class-mojito-shipping-admin.php:215
+#: admin/class-mojito-shipping-admin.php:1111
+msgid "Inside GAM"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:195
+#: admin/class-mojito-shipping-admin-pro.php:1264
+#: admin/class-mojito-shipping-admin.php:216
+#: admin/class-mojito-shipping-admin.php:1112
+msgid "Outsite GAM"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:197
+#: admin/class-mojito-shipping-admin-pro.php:1266
+#: admin/class-mojito-shipping-admin.php:218
+#: admin/class-mojito-shipping-admin.php:1114
+msgid "Indicate if your store is located inside or outside the GAM"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:201
+#: admin/class-mojito-shipping-admin-pro.php:1270
+#: admin/class-mojito-shipping-admin.php:222
+#: admin/class-mojito-shipping-admin.php:1118
+msgid "Service for local shipping"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:206
+#: admin/class-mojito-shipping-admin-pro.php:1275
+#: admin/class-mojito-shipping-admin.php:227
+#: admin/class-mojito-shipping-admin.php:1123
+msgid "EMS Courier"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:208
+#: admin/class-mojito-shipping-admin-pro.php:1277
+#: admin/class-mojito-shipping-admin.php:229
+#: admin/class-mojito-shipping-admin.php:1125
+msgid "Select the service to deliver the packages inside Costa Rica"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:212
+#: admin/class-mojito-shipping-admin-pro.php:1281
+msgid "Service for international shipping"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:216
+#: admin/class-mojito-shipping-admin-pro.php:1285
+msgid "Exporta Fácil"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:217
+#: admin/class-mojito-shipping-admin-pro.php:1286
+msgid "EMS Premium"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:218
+#: admin/class-mojito-shipping-admin-pro.php:1287
+msgid "Correo Internacional Prioritario"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:219
+#: admin/class-mojito-shipping-admin-pro.php:1288
+msgid "Correo No Internacional Prioritario"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:220
+#: admin/class-mojito-shipping-admin-pro.php:1289
+msgid "Correo Internacional Prioritario con Certificado"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:222
+#: admin/class-mojito-shipping-admin-pro.php:1291
+msgid "Select the service to deliver the packages outside Costa Rica"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:226
+#: admin/class-mojito-shipping-admin-pro.php:710
+#: admin/class-mojito-shipping-admin-pro.php:1295
+msgid "Add IVA calculation"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:229
+#: admin/class-mojito-shipping-admin-pro.php:713
+#: admin/class-mojito-shipping-admin-pro.php:1298
+msgid "Yes, I must pay IVA to Correos de Costa Rica"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:230
+#: admin/class-mojito-shipping-admin-pro.php:714
+#: admin/class-mojito-shipping-admin-pro.php:1299
+msgid "No, my business is IVA exempt"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:233
+#: admin/class-mojito-shipping-admin-pro.php:717
+#: admin/class-mojito-shipping-admin-pro.php:1302
+msgid "Please be sure that your business has an IVA exemption into Correos de Costa Rica system."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:249
+#: admin/class-mojito-shipping-admin-pro.php:733
+msgid "Use Mojito Proxy Connection"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:250
+#: admin/class-mojito-shipping-admin-pro.php:734
+msgid "Use the proxy provided by Mojito. Please write to us with your website IP address to enable access."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:254
+#: admin/class-mojito-shipping-admin-pro.php:738
+msgid "Enable Mojito Proxy"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:257
+#: admin/class-mojito-shipping-admin-pro.php:741
+#: admin/class-mojito-shipping-admin.php:525
+#: admin/class-mojito-shipping-admin.php:945
+msgid "Disabled"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:258
+#: admin/class-mojito-shipping-admin-pro.php:742
+#: admin/class-mojito-shipping-admin.php:526
+#: admin/class-mojito-shipping-admin.php:946
+msgid "Enabled"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:260
+#: admin/class-mojito-shipping-admin-pro.php:744
+msgid "This setting will overwrite the Proxy Connection Settings."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:276
+#: admin/class-mojito-shipping-admin-pro.php:760
+#: admin/class-mojito-shipping-admin-pro.php:1318
+msgid "Minimal amounts and rounding"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:277
+#: admin/class-mojito-shipping-admin-pro.php:761
+#: admin/class-mojito-shipping-admin-pro.php:1319
+#: admin/class-mojito-shipping-admin.php:420
+#: admin/class-mojito-shipping-admin.php:1184
+msgid "Set the minimal amount to charge."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:281
+#: admin/class-mojito-shipping-admin-pro.php:765
+#: admin/class-mojito-shipping-admin-pro.php:1323
+msgid "Round the final amount"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:284
+#: admin/class-mojito-shipping-admin-pro.php:768
+#: admin/class-mojito-shipping-admin-pro.php:1326
+msgid "Do not round the amount"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:285
+#: admin/class-mojito-shipping-admin-pro.php:769
+#: admin/class-mojito-shipping-admin-pro.php:1327
+msgid "Round to the next 10 (eg: 3203.56 => 3210)"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:286
+#: admin/class-mojito-shipping-admin-pro.php:770
+#: admin/class-mojito-shipping-admin-pro.php:1328
+msgid "Round to the next 100 (eg: 3203.56 => 3300)"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:287
+#: admin/class-mojito-shipping-admin-pro.php:771
+#: admin/class-mojito-shipping-admin-pro.php:1329
+msgid "Round to the next 500 (eg: 3203.56 => 3500)"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:288
+#: admin/class-mojito-shipping-admin-pro.php:772
+#: admin/class-mojito-shipping-admin-pro.php:1330
+msgid "Round to the next 1000 (eg: 3203.56 => 4000)"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:291
+#: admin/class-mojito-shipping-admin-pro.php:775
+#: admin/class-mojito-shipping-admin-pro.php:1333
+msgid "Round the final amount of the shipment to facilitate the reading of the amount."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:295
+#: admin/class-mojito-shipping-admin-pro.php:779
+#: admin/class-mojito-shipping-admin-pro.php:1337
+#: admin/class-mojito-shipping-admin-pro.php:1492
+#: admin/class-mojito-shipping-admin.php:424
+#: admin/class-mojito-shipping-admin.php:1188
+msgid "Enable minimal amounts"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:298
+#: admin/class-mojito-shipping-admin-pro.php:782
+#: admin/class-mojito-shipping-admin-pro.php:1340
+#: admin/class-mojito-shipping-admin-pro.php:1495
+#: admin/class-mojito-shipping-admin.php:427
+#: admin/class-mojito-shipping-admin.php:1191
+msgid "Disable the minimal amounts"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:299
+#: admin/class-mojito-shipping-admin-pro.php:783
+#: admin/class-mojito-shipping-admin-pro.php:1341
+#: admin/class-mojito-shipping-admin-pro.php:1496
+#: admin/class-mojito-shipping-admin.php:428
+#: admin/class-mojito-shipping-admin.php:1192
+msgid "Enable the minimal amounts"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:302
+#: admin/class-mojito-shipping-admin-pro.php:786
+#: admin/class-mojito-shipping-admin-pro.php:1344
+#: admin/class-mojito-shipping-admin-pro.php:1499
+#: admin/class-mojito-shipping-admin.php:431
+#: admin/class-mojito-shipping-admin.php:1195
+msgid "This setting allows you to ensure a minimum shipping charge."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:306
+#: admin/class-mojito-shipping-admin-pro.php:790
+#: admin/class-mojito-shipping-admin-pro.php:1348
+#: admin/class-mojito-shipping-admin-pro.php:1503
+#: admin/class-mojito-shipping-admin.php:435
+#: admin/class-mojito-shipping-admin.php:1199
+msgid "General minimal amount"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:308
+#: admin/class-mojito-shipping-admin-pro.php:792
+#: admin/class-mojito-shipping-admin-pro.php:1350
+#: admin/class-mojito-shipping-admin-pro.php:1505
+#: admin/class-mojito-shipping-admin.php:437
+#: admin/class-mojito-shipping-admin.php:1201
+msgid "Set a minimum charge."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:313
+#: admin/class-mojito-shipping-admin-pro.php:797
+#: admin/class-mojito-shipping-admin-pro.php:1355
+msgid "Minimal amount for local Shipping inside the GAM"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:315
+#: admin/class-mojito-shipping-admin-pro.php:799
+#: admin/class-mojito-shipping-admin-pro.php:1357
+msgid "Set a minimum charge for your local shipping in the GAM."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:320
+#: admin/class-mojito-shipping-admin-pro.php:804
+#: admin/class-mojito-shipping-admin-pro.php:1362
+msgid "Minimal amount for local Shipping outside the GAM"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:322
+#: admin/class-mojito-shipping-admin-pro.php:806
+#: admin/class-mojito-shipping-admin-pro.php:1364
+msgid "Set a minimum charge for your local shipping out the GAM."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:327
+#: admin/class-mojito-shipping-admin-pro.php:1369
+msgid "Minimal amount for international Shipping"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:329
+#: admin/class-mojito-shipping-admin-pro.php:1371
+msgid "Set a minimum charge for your international shipping."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:346
+#: admin/class-mojito-shipping-admin-pro.php:823
+#: admin/class-mojito-shipping-admin-pro.php:1388
+msgid "Correos de Costa Rica Logo"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:347
+#: admin/class-mojito-shipping-admin-pro.php:824
+#: admin/class-mojito-shipping-admin-pro.php:1389
+msgid "Show the logo of Correos de Costa Rica. Correos de Costa Rica owns all rights to its logo, brand, and others. "
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:351
+#: admin/class-mojito-shipping-admin-pro.php:828
+#: admin/class-mojito-shipping-admin-pro.php:1393
+msgid "Show Correos de Costa Rica logo"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:354
+#: admin/class-mojito-shipping-admin-pro.php:831
+#: admin/class-mojito-shipping-admin-pro.php:1396
+msgid "Yes, show logo"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:355
+#: admin/class-mojito-shipping-admin-pro.php:832
+#: admin/class-mojito-shipping-admin-pro.php:1397
+msgid "No, do not show the logo"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:358
+#: admin/class-mojito-shipping-admin-pro.php:835
+#: admin/class-mojito-shipping-admin-pro.php:1400
+msgid "Show logo in Cart and Checkout"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:362
+#: admin/class-mojito-shipping-admin-pro.php:839
+#: admin/class-mojito-shipping-admin-pro.php:1404
+msgid "Link logo to Correos de Costa Rica service page."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:365
+#: admin/class-mojito-shipping-admin-pro.php:425
+#: admin/class-mojito-shipping-admin-pro.php:435
+#: admin/class-mojito-shipping-admin-pro.php:529
+#: admin/class-mojito-shipping-admin-pro.php:539
+#: admin/class-mojito-shipping-admin-pro.php:550
+#: admin/class-mojito-shipping-admin-pro.php:561
+#: admin/class-mojito-shipping-admin-pro.php:572
+#: admin/class-mojito-shipping-admin-pro.php:842
+#: admin/class-mojito-shipping-admin-pro.php:902
+#: admin/class-mojito-shipping-admin-pro.php:912
+#: admin/class-mojito-shipping-admin-pro.php:1063
+#: admin/class-mojito-shipping-admin-pro.php:1074
+#: admin/class-mojito-shipping-admin-pro.php:1084
+#: admin/class-mojito-shipping-admin-pro.php:1095
+#: admin/class-mojito-shipping-admin-pro.php:1106
+#: admin/class-mojito-shipping-admin-pro.php:1117
+#: admin/class-mojito-shipping-admin-pro.php:1152
+#: admin/class-mojito-shipping-admin-pro.php:1163
+#: admin/class-mojito-shipping-admin-pro.php:1197
+#: admin/class-mojito-shipping-admin-pro.php:1224
+#: admin/class-mojito-shipping-admin-pro.php:1407
+#: admin/class-mojito-shipping-admin.php:1016
+#: admin/class-mojito-shipping-admin.php:1045
+#: admin/class-mojito-shipping-admin.php:1430
+msgid "Yes"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:366
+#: admin/class-mojito-shipping-admin-pro.php:424
+#: admin/class-mojito-shipping-admin-pro.php:434
+#: admin/class-mojito-shipping-admin-pro.php:528
+#: admin/class-mojito-shipping-admin-pro.php:540
+#: admin/class-mojito-shipping-admin-pro.php:551
+#: admin/class-mojito-shipping-admin-pro.php:562
+#: admin/class-mojito-shipping-admin-pro.php:573
+#: admin/class-mojito-shipping-admin-pro.php:843
+#: admin/class-mojito-shipping-admin-pro.php:901
+#: admin/class-mojito-shipping-admin-pro.php:911
+#: admin/class-mojito-shipping-admin-pro.php:1062
+#: admin/class-mojito-shipping-admin-pro.php:1073
+#: admin/class-mojito-shipping-admin-pro.php:1085
+#: admin/class-mojito-shipping-admin-pro.php:1096
+#: admin/class-mojito-shipping-admin-pro.php:1107
+#: admin/class-mojito-shipping-admin-pro.php:1118
+#: admin/class-mojito-shipping-admin-pro.php:1151
+#: admin/class-mojito-shipping-admin-pro.php:1162
+#: admin/class-mojito-shipping-admin-pro.php:1196
+#: admin/class-mojito-shipping-admin-pro.php:1223
+#: admin/class-mojito-shipping-admin-pro.php:1408
+#: admin/class-mojito-shipping-admin.php:1017
+#: admin/class-mojito-shipping-admin.php:1044
+#: admin/class-mojito-shipping-admin.php:1431
+msgid "No"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:369
+#: admin/class-mojito-shipping-admin-pro.php:846
+#: admin/class-mojito-shipping-admin-pro.php:1411
+msgid "This option allows you to enable the link to Correos de Costa Rica website."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:373
+#: admin/class-mojito-shipping-admin-pro.php:850
+#: admin/class-mojito-shipping-admin-pro.php:1415
+msgid "Logo size"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:376
+#: admin/class-mojito-shipping-admin-pro.php:853
+#: admin/class-mojito-shipping-admin-pro.php:1418
+msgid "Full size"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:377
+#: admin/class-mojito-shipping-admin-pro.php:854
+#: admin/class-mojito-shipping-admin-pro.php:1419
+msgid "320px width"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:378
+#: admin/class-mojito-shipping-admin-pro.php:855
+#: admin/class-mojito-shipping-admin-pro.php:1420
+msgid "200px width"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:379
+#: admin/class-mojito-shipping-admin-pro.php:856
+#: admin/class-mojito-shipping-admin-pro.php:1421
+msgid "120px width"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:382
+#: admin/class-mojito-shipping-admin-pro.php:859
+#: admin/class-mojito-shipping-admin-pro.php:1424
+msgid "Select the size to show."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:386
+#: admin/class-mojito-shipping-admin-pro.php:863
+#: admin/class-mojito-shipping-admin-pro.php:1428
+msgid "Show logo before or after the label"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:389
+#: admin/class-mojito-shipping-admin-pro.php:866
+#: admin/class-mojito-shipping-admin-pro.php:1431
+msgid "Show the logo Before the label and price"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:390
+#: admin/class-mojito-shipping-admin-pro.php:867
+#: admin/class-mojito-shipping-admin-pro.php:1432
+msgid "Show the logo After the label and price"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:393
+#: admin/class-mojito-shipping-admin-pro.php:870
+#: admin/class-mojito-shipping-admin-pro.php:1435
+msgid "This option allows you to set the position of the logo"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:397
+#: admin/class-mojito-shipping-admin-pro.php:874
+#: admin/class-mojito-shipping-admin-pro.php:1439
+msgid "Logo custom CSS Class"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:400
+#: admin/class-mojito-shipping-admin-pro.php:877
+#: admin/class-mojito-shipping-admin-pro.php:1442
+msgid "Custom CSS Class for the logo"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:416
+#: admin/class-mojito-shipping-admin-pro.php:893
+msgid "Show Tracking Details"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:417
+#: admin/class-mojito-shipping-admin-pro.php:894
+msgid "Tracking only works for the production environment."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:421
+#: admin/class-mojito-shipping-admin-pro.php:898
+msgid "Show tracking in user order details"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:431
+#: admin/class-mojito-shipping-admin-pro.php:908
+msgid "Show tracking in admin order details"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:453
+#: admin/class-mojito-shipping-admin-pro.php:976
+msgid "Free and discount shipping rules"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:454
+#: admin/class-mojito-shipping-admin-pro.php:977
+msgid "Offer free shipping to your clients when they buy a certain amount or weight."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:458
+#: admin/class-mojito-shipping-admin-pro.php:981
+msgid "Free Shipping rule mode"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:461
+#: admin/class-mojito-shipping-admin-pro.php:984
+msgid "Free Shipping disabled"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:462
+#: admin/class-mojito-shipping-admin-pro.php:985
+msgid "Requires a minimum order amount "
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:463
+#: admin/class-mojito-shipping-admin-pro.php:986
+msgid "Requires a minimum order weight "
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:464
+#: admin/class-mojito-shipping-admin-pro.php:987
+msgid "Requires a minimum item order count "
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:465
+#: admin/class-mojito-shipping-admin-pro.php:988
+msgid "Requires a maximum order amount "
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:466
+#: admin/class-mojito-shipping-admin-pro.php:989
+msgid "Requires a maximum order weight "
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:467
+#: admin/class-mojito-shipping-admin-pro.php:990
+msgid "Requires a maximum item order count "
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:473
+#: admin/class-mojito-shipping-admin-pro.php:996
+msgid "Minimal or maximum."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:475
+msgid "Enter the minimal or maximum items count, weight or amount to apply the free shipping rule."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:479
+#: admin/class-mojito-shipping-admin-pro.php:1002
+msgid "Free Shipping discount mode"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:482
+#: admin/class-mojito-shipping-admin-pro.php:1005
+msgid "Fixed amount"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:483
+#: admin/class-mojito-shipping-admin-pro.php:1006
+msgid "Percent discount "
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:489
+#: admin/class-mojito-shipping-admin-pro.php:1012
+msgid "Discount (Percent or amount)."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:508
+#: admin/class-mojito-shipping-admin-pro.php:1031
+msgid "PDF export settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:509
+#: admin/class-mojito-shipping-admin-pro.php:1032
+msgid "Settings to export order data and guide number in PDF"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:513
+#: admin/class-mojito-shipping-admin-pro.php:1047
+msgid "PDF Content"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:516
+#: admin/class-mojito-shipping-admin-pro.php:1050
+msgid "Full order data"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:517
+#: admin/class-mojito-shipping-admin-pro.php:1051
+msgid "Minimal order data"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:518
+#: admin/class-mojito-shipping-admin-pro.php:1052
+msgid "Only barcode"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:521
+msgid "The option \"Full order data\" include Guide number, Sender data, Recipient data, and the Package details. The option \"Minimal\" will export the Barcode, the Guide number and Recipient data. The option \"Only barcode\" will export the Guide number and barcode only."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:525
+#: admin/class-mojito-shipping-admin-pro.php:1059
+msgid "include order products?"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:532
+#: admin/class-mojito-shipping-admin-pro.php:1066
+#: admin/class-mojito-shipping-admin-pro.php:1077
+msgid "If yes, the PDF will show the products in the order. This option requires \"Full order data\" in the PDF Content option."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:536
+#: admin/class-mojito-shipping-admin-pro.php:1081
+msgid "Show Correos de Costa Rica Logo"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:543
+#: admin/class-mojito-shipping-admin-pro.php:1088
+msgid "Include logo in the PDF."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:547
+#: admin/class-mojito-shipping-admin-pro.php:1092
+msgid "Show Site Logo"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:554
+#: admin/class-mojito-shipping-admin-pro.php:1099
+msgid "Include site logo in the PDF."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:558
+#: admin/class-mojito-shipping-admin-pro.php:1103
+msgid "Download PDF available in customer order details"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:565
+#: admin/class-mojito-shipping-admin-pro.php:1110
+msgid "If Yes, an option to download the PDF will be available in the customer order details."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:569
+#: admin/class-mojito-shipping-admin-pro.php:1114
+msgid "Download PDF available in orders list"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:576
+#: admin/class-mojito-shipping-admin-pro.php:1121
+msgid "If Yes, an option to download the PDF will be available in the orders list."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:595
+#: admin/class-mojito-shipping-admin.php:245
+#: admin/class-mojito-shipping-admin.php:591
+msgid "Web Service Settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:596
+#: admin/class-mojito-shipping-admin.php:592
+msgid "Configuration to consume the Correos de Costa Rica web service. Important: Complete this settings and check connection before first."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:600
+#: admin/class-mojito-shipping-admin.php:531
+#: admin/class-mojito-shipping-admin.php:596
+#: admin/class-mojito-shipping-admin.php:951
+msgid "Username"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:602
+#: admin/class-mojito-shipping-admin.php:598
+msgid "Web Service Username"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:607
+#: admin/class-mojito-shipping-admin.php:536
+#: admin/class-mojito-shipping-admin.php:603
+#: admin/class-mojito-shipping-admin.php:956
+msgid "Password"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:609
+#: admin/class-mojito-shipping-admin.php:605
+msgid "Web Service Password"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:614
+#: admin/class-mojito-shipping-admin.php:268
+#: admin/class-mojito-shipping-admin.php:610
+msgid "User ID"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:616
+#: admin/class-mojito-shipping-admin.php:612
+msgid "Web Service User ID"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:621
+#: admin/class-mojito-shipping-admin.php:278
+#: admin/class-mojito-shipping-admin.php:617
+msgid "Service ID"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:623
+#: admin/class-mojito-shipping-admin.php:619
+msgid "Web Service, Service ID"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:628
+#: admin/class-mojito-shipping-admin.php:283
+#: admin/class-mojito-shipping-admin.php:624
+msgid "Client code"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:630
+#: admin/class-mojito-shipping-admin.php:626
+msgid "Web Service Client Code"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:635
+msgid "System"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:639
+msgid "Retail"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:640
+msgid "Corporativo"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:647
+#: admin/class-mojito-shipping-admin.php:631
+msgid "Environment type"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:650
+#: admin/class-mojito-shipping-admin.php:634
+msgid "Sandbox"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:651
+#: admin/class-mojito-shipping-admin.php:635
+msgid "Production"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:654
+#: admin/class-mojito-shipping-admin.php:638
+msgid "This setting allows you to set development or production environment."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:670
+#: admin/class-mojito-shipping-admin.php:655
+msgid "Set settings for your store. Please fill, save and check the connection settings before set the locations settings."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:674
+#: admin/class-mojito-shipping-admin.php:659
+msgid "Province"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:678
+#: admin/class-mojito-shipping-admin.php:663
+msgid "San José"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:679
+#: admin/class-mojito-shipping-admin.php:664
+msgid "Alajuela"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:680
+#: admin/class-mojito-shipping-admin.php:665
+msgid "Cartago"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:681
+#: admin/class-mojito-shipping-admin.php:666
+msgid "Heredia"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:682
+#: admin/class-mojito-shipping-admin.php:667
+msgid "Guanacaste"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:683
+#: admin/class-mojito-shipping-admin.php:668
+msgid "Puntarenas"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:684
+#: admin/class-mojito-shipping-admin.php:669
+msgid "Limón"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:686
+#: admin/class-mojito-shipping-admin.php:672
+msgid "Indicate your store's province"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:687
+#: admin/class-mojito-shipping-admin.php:673
+msgid "Set the province"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:692
+#: admin/class-mojito-shipping-admin.php:678
+msgid "Canton"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:695
+#: admin/class-mojito-shipping-admin.php:681
+msgid "Indicate your store's canton"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:696
+#: admin/class-mojito-shipping-admin.php:682
+msgid "Set the canton"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:701
+#: admin/class-mojito-shipping-admin.php:687
+msgid "District"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:704
+#: admin/class-mojito-shipping-admin.php:690
+msgid "Indicate your store's district"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:705
+#: admin/class-mojito-shipping-admin.php:691
+msgid "Set the district"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:930
+#: admin/class-mojito-shipping-admin.php:454
+#: admin/class-mojito-shipping-admin.php:874
+#: admin/class-mojito-shipping-admin.php:1218
+#: admin/class-mojito-shipping-admin.php:1352
+msgid "Exchange Rate"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:931
+#: admin/class-mojito-shipping-admin.php:455
+#: admin/class-mojito-shipping-admin.php:875
+#: admin/class-mojito-shipping-admin.php:1219
+msgid "Due Correos de Costa Rica uses colones for its rates, this option allows you to sell in another currency and convert the final shipping rate to the currency established in your store, according to the exchange rate settings."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:935
+#: admin/class-mojito-shipping-admin-pro.php:939
+#: admin/class-mojito-shipping-admin.php:459
+#: admin/class-mojito-shipping-admin.php:463
+#: admin/class-mojito-shipping-admin.php:879
+#: admin/class-mojito-shipping-admin.php:883
+#: admin/class-mojito-shipping-admin.php:1223
+#: admin/class-mojito-shipping-admin.php:1227
+#: admin/class-mojito-shipping-admin.php:1357
+#: admin/class-mojito-shipping-admin.php:1361
+msgid "Enable exchange rate"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:938
+#: admin/class-mojito-shipping-admin.php:462
+#: admin/class-mojito-shipping-admin.php:882
+#: admin/class-mojito-shipping-admin.php:1226
+#: admin/class-mojito-shipping-admin.php:1360
+msgid "Disable exchange rate"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:942
+#: admin/class-mojito-shipping-admin.php:466
+#: admin/class-mojito-shipping-admin.php:886
+#: admin/class-mojito-shipping-admin.php:1230
+#: admin/class-mojito-shipping-admin.php:1364
+msgid "This option allows you to enable the exchange rate."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:946
+msgid "Automatic Exchange rate"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:949
+msgid "Manual exchange rate"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:950
+msgid "Automatic exchange rate"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:953
+msgid "Select between manual exchange rate or automatic from https://api.hacienda.go.cr/indicadores/tc"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:957
+#: admin/class-mojito-shipping-admin.php:470
+#: admin/class-mojito-shipping-admin.php:890
+#: admin/class-mojito-shipping-admin.php:1234
+#: admin/class-mojito-shipping-admin.php:1368
+msgid "Exchange rate"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:959
+msgid "Please set up the dollar price in colones. This will overwrite any other exchange rate."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:998
+msgid "Enter the minimal or maximum weight or amount to apply the free shipping rule."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1036
+msgid "PDF Origin"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1039
+msgid "PDF generated by Mojito Shipping"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1040
+msgid "PDF generated by Correos de Costa Rica"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1043
+msgid "Select the origin of the PDF."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1055
+msgid "This option requires \"PDF Origin\" to be \"PDF generated by Mojito Shipping\". The option \"Full order data\" include Guide number, Sender data, Recipient data, and the Package details. The option \"Minimal\" will export the Barcode, the Guide number and Recipient data. The option \"Only barcode\" will export the Guide number and barcode only."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1070
+msgid "include client note?"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1125
+msgid "Send PDFs to the following emails"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1127
+msgid "If set, Mojito Shipping will try to send the PDF guide to these email addresses. Separate with commas \",\""
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1143
+msgid "Location rules"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1144
+msgid "Settings to exclude zones from the shipping calculation"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1148
+msgid "Exclude inside GAM locations?"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1155
+msgid "If Yes, Pymexpress will be no active for inside GAM destinations."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1159
+msgid "Exclude outside GAM locations?"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1166
+msgid "If Yes, Pymexpress will be no active for outside GAM destinations."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1170
+msgid "Custom zip codes to exclude"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1172
+msgid "Fill with zip code locations to exclude from the shipping calculation. Separate with commas \",\""
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1188
+msgid "Cron settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1189
+msgid "Periodically run and do things. If you use Mojito Proxy we recommend enabling the Cron to keep your IP address updated in our firewall."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1193
+msgid "Allow CRON to run?"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1215
+#: admin/class-mojito-shipping-admin.php:1036
+msgid "WS Cache settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1216
+#: admin/class-mojito-shipping-admin.php:1037
+msgid "Save Pymexpress Web Service responses in cache."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1220
+#: admin/class-mojito-shipping-admin.php:1041
+msgid "Enable Pymexpress WS Cache?"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1230
+#: admin/class-mojito-shipping-admin.php:1051
+msgid "Lifetime"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1232
+#: admin/class-mojito-shipping-admin.php:1053
+msgid "Determines how many seconds the cache will live."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1459
+#: admin/class-mojito-shipping-admin.php:1307
+msgid "Simple Weight-based rates settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1460
+#: admin/class-mojito-shipping-admin.php:1308
+msgid "Set your weight-based rates settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1464
+#: admin/class-mojito-shipping-admin.php:1312
+msgid "Rate per kg"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1466
+#: admin/class-mojito-shipping-admin.php:1314
+msgid "Set the shipping rate per kg"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1471
+msgid "Rate per lb"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1473
+#: admin/class-mojito-shipping-admin-pro.php:1487
+#: admin/class-mojito-shipping-admin.php:1335
+msgid "Set the shipping rate per lb"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1478
+#: admin/class-mojito-shipping-admin.php:1326
+msgid "Rate per g"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1480
+#: admin/class-mojito-shipping-admin.php:1328
+msgid "Set the shipping rate per g"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin-pro.php:1485
+#: admin/class-mojito-shipping-admin.php:1333
+msgid "Rate per oz"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:156
+msgid "General"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:157
+msgid "Correos de Costa Rica"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:160
+msgid "Simple weight-based"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:161
+#: admin/class-mojito-shipping-admin.php:1411
+msgid "Information"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:162
+msgid "Other settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:174
+msgid "Carrier or Method"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:177
+msgid "Select one"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:192
+msgid "Do you like Mojito Shipping?"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:246
+msgid "Configuration to consume the Correos de Costa Rica web service."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:250
+msgid "URL Web Service"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:254
+msgid "Be sure the URL ends with \"?WSDL\", example: http://amistad.correos.go.cr:82/wserPruebas/wsAppCorreos.wsAppCorreos.svc?WSDL"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:258
+msgid "User"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:263
+msgid "Pass"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:273
+msgid "Client Type"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:300
+#: admin/class-mojito-shipping-admin.php:709
+msgid "Sender Settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:301
+#: admin/class-mojito-shipping-admin.php:710
+msgid "Your company or store information."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:305
+#: admin/class-mojito-shipping-admin.php:714
+msgid "Name"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:307
+#: admin/class-mojito-shipping-admin.php:716
+msgid "Sender Name"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:311
+#: admin/class-mojito-shipping-admin.php:720
+msgid "Address"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:313
+#: admin/class-mojito-shipping-admin.php:722
+msgid "Sender physical address"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:317
+#: admin/class-mojito-shipping-admin.php:726
+msgid "Zip Code"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:319
+msgid "Sender zip code"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:323
+#: admin/class-mojito-shipping-admin.php:732
+msgid "Phone"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:325
+#: admin/class-mojito-shipping-admin.php:734
+msgid "Sender's phone number"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:329
+#: admin/class-mojito-shipping-admin.php:738
+msgid "Email"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:331
+#: admin/class-mojito-shipping-admin.php:740
+msgid "Sender's email"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:347
+#: admin/class-mojito-shipping-admin.php:756
+msgid "Message In Mail Orders Settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:348
+#: admin/class-mojito-shipping-admin.php:757
+msgid "Custom message to show it on orders mail."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:352
+#: admin/class-mojito-shipping-admin.php:761
+msgid "Label"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:354
+#: admin/class-mojito-shipping-admin.php:763
+#: includes/class-mojito-shipping.php:559
+#: includes/class-mojito-shipping.php:1594
+msgid "Correos de Costa Rica Tracking code"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:358
+#: admin/class-mojito-shipping-admin.php:767
+msgid "Message"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:361
+#: admin/class-mojito-shipping-admin.php:770
+#: includes/class-mojito-shipping.php:560
+#: includes/class-mojito-shipping.php:1595
+msgid "Guide number for packages tracking"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:377
+#: admin/class-mojito-shipping-admin.php:832
+#: admin/class-mojito-shipping-admin.php:1141
+msgid "Fixed rates"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:378
+#: admin/class-mojito-shipping-admin.php:833
+#: admin/class-mojito-shipping-admin.php:1142
+msgid "Set fixed rates. <span class=\"error\">Caution: This will overwrite any other shipping rates calculation.</span>"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:382
+#: admin/class-mojito-shipping-admin.php:386
+#: admin/class-mojito-shipping-admin.php:837
+#: admin/class-mojito-shipping-admin.php:841
+#: admin/class-mojito-shipping-admin.php:1146
+#: admin/class-mojito-shipping-admin.php:1150
+msgid "Enable fixed rates"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:385
+#: admin/class-mojito-shipping-admin.php:840
+#: admin/class-mojito-shipping-admin.php:1149
+msgid "Disable fixed rates"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:389
+#: admin/class-mojito-shipping-admin.php:844
+#: admin/class-mojito-shipping-admin.php:1153
+msgid "This setting allows you to ensure fixed rates to GAM and Non-GAM shipping."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:393
+#: admin/class-mojito-shipping-admin.php:848
+#: admin/class-mojito-shipping-admin.php:1157
+msgid "Rate for GAM"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:395
+#: admin/class-mojito-shipping-admin.php:850
+#: admin/class-mojito-shipping-admin.php:1159
+msgid "Set a fixed rate to GAM."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:400
+#: admin/class-mojito-shipping-admin.php:855
+#: admin/class-mojito-shipping-admin.php:1164
+msgid "Rate for non-GAM"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:402
+#: admin/class-mojito-shipping-admin.php:857
+#: admin/class-mojito-shipping-admin.php:1166
+msgid "Set a fixed rate to non-GAM."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:419
+#: admin/class-mojito-shipping-admin.php:1183
+msgid "Minimal amounts"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:472
+#: admin/class-mojito-shipping-admin.php:892
+#: admin/class-mojito-shipping-admin.php:1236
+#: admin/class-mojito-shipping-admin.php:1370
+msgid "Please set up the dollar price in colones."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:489
+#: admin/class-mojito-shipping-admin.php:909
+#: admin/class-mojito-shipping-admin.php:1254
+msgid "Max Weight settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:490
+#: admin/class-mojito-shipping-admin.php:910
+#: admin/class-mojito-shipping-admin.php:1255
+msgid "The maximum weight allowed by Correos de Costa Rica is 30,000 grams (30 kg), you can disable this shipping method when the maximum package weight is reached."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:494
+#: admin/class-mojito-shipping-admin.php:914
+#: admin/class-mojito-shipping-admin.php:1259
+msgid "Max Weight Control"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:497
+#: admin/class-mojito-shipping-admin.php:917
+#: admin/class-mojito-shipping-admin.php:1262
+msgid "Disable Correos de Costa Rica when order total weight is over 30 kg"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:498
+#: admin/class-mojito-shipping-admin.php:918
+#: admin/class-mojito-shipping-admin.php:1263
+msgid "Keep Correos de Costa Rica ENABLED when order total weight is over 30 kg"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:501
+#: admin/class-mojito-shipping-admin.php:921
+#: admin/class-mojito-shipping-admin.php:1266
+msgid "This option allows you to disable Correos de Costa Rica when order total weight is over 30000 g (30 kg)."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:517
+#: admin/class-mojito-shipping-admin.php:937
+msgid "Proxy Connection Settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:518
+#: admin/class-mojito-shipping-admin.php:938
+msgid "Connection Settings."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:522
+#: admin/class-mojito-shipping-admin.php:942
+msgid "Enable Proxy Connection"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:541
+#: admin/class-mojito-shipping-admin.php:961
+msgid "Proxy IP"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:546
+#: admin/class-mojito-shipping-admin.php:966
+msgid "Proxy Port"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:563
+#: admin/class-mojito-shipping-admin.php:983
+#: admin/class-mojito-shipping-admin.php:1282
+#: admin/class-mojito-shipping-admin.php:1387
+msgid "Label settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:564
+#: admin/class-mojito-shipping-admin.php:984
+#: admin/class-mojito-shipping-admin.php:1283
+#: admin/class-mojito-shipping-admin.php:1388
+msgid "This option allows you set a custom label for Cart and Checkout."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:568
+#: admin/class-mojito-shipping-admin.php:988
+#: admin/class-mojito-shipping-admin.php:1287
+#: admin/class-mojito-shipping-admin.php:1392
+msgid "Custom label"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:571
+#: admin/class-mojito-shipping-admin.php:991
+#: admin/class-mojito-shipping-admin.php:1290
+msgid "Dynamic allowed values: <br>%rate% for shipping rate <br>%country% for destination country <br>%weight% for package weight <br>%weight-ccr% for package weight allowed by Correos de Costa Rica"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:728
+msgid "Sender zip code. You can find yours in https://correos.go.cr/codigo-postal/"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:786
+msgid "Add packing costs to the shipping calculation"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:787
+msgid "Custom packing costs like bags or boxes."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:791
+#: admin/class-mojito-shipping-admin.php:795
+msgid "Enable packing costs"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:794
+msgid "Disable packing costs"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:798
+msgid "This setting allows you to ensure include packing costs shipping rate."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:802
+msgid "EMS bag size"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:805
+msgid "Small bag - ₡100,00"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:806
+msgid "Medium bag - ₡130,00"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:807
+msgid "Big bag - ₡150,00"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:813
+msgid "Custom packing cost"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:815
+msgid "if set, will overwrite the packing cost."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1008
+msgid "Cart and Checkout options"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1009
+msgid "Options for Cart and Checkout."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1013
+msgid "Cart Address preselection"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1020
+msgid "Pre select San José in cart"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1070
+msgid "Address fields settings"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1071
+msgid "Settings for address fields"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1075
+#: admin/class-mojito-shipping-admin.php:1079
+msgid "Hide zip code field"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1078
+msgid "Show zip code field"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1082
+msgid "Show zip code field."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1319
+msgid "Rate per lbs"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1321
+msgid "Set the shipping rate per lbs"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1353
+msgid "This option allows you to sell in another currency and convert the final shipping rate to the currency established in your store, according to the exchange rate settings."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1395
+msgid "Dynamic allowed values: <br>%rate% for shipping rate <br>%weight% for package weight"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1412
+msgid "Settings details."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1422
+msgid "Debug"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1423
+msgid "Enable debug"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1427
+msgid "Enable Debug"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1433
+msgid "Enable this option to log more data about plugin work"
+msgstr ""
+
+#. translators: version.
+#: admin/class-mojito-shipping-admin.php:1480
+msgid "Mojito Shipping version: %s"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1481
+msgid "Carriers or methods enabled"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1492
+msgid "No carrier or method is enabled"
+msgstr ""
+
+#. translators: details.
+#: admin/class-mojito-shipping-admin.php:1512
+#: admin/class-mojito-shipping-admin.php:1711
+#: admin/class-mojito-shipping-admin.php:1873
+#: admin/class-mojito-shipping-admin.php:1910
+msgid "Details for \"%s\""
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1518
+msgid "SoapClient is enabled"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1520
+msgid "SoapClient is not enabled"
+msgstr ""
+
+#. translators: response body.
+#: admin/class-mojito-shipping-admin.php:1541
+#: admin/class-mojito-shipping-admin.php:1782
+msgid "Your website IP Address is %s, be sure this is whitelisted by Correos de Costa Rica"
+msgstr ""
+
+#. translators: key.
+#: admin/class-mojito-shipping-admin.php:1549
+#: admin/class-mojito-shipping-admin.php:1790
+msgid "There was an error when checking your website IP Address: %s"
+msgstr ""
+
+#. translators: curl error.
+#. translators: response.
+#: admin/class-mojito-shipping-admin.php:1623
+#: admin/class-mojito-shipping-admin.php:1647
+msgid "The Web Service URL cannot be reached from your website, the error message is: %s"
+msgstr ""
+
+#. translators: proxy data.
+#: admin/class-mojito-shipping-admin.php:1631
+msgid "URL del Web Service connection is OK through the %s"
+msgstr ""
+
+#. translators: proxy data.
+#: admin/class-mojito-shipping-admin.php:1643
+#: admin/class-mojito-shipping-admin.php:1812
+msgid "URL del Web Service connection is OK"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1663
+#: admin/class-mojito-shipping-admin.php:1825
+msgid "Mojito Proxy is enabled."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1667
+#: admin/class-mojito-shipping-admin.php:1829
+msgid "Proxy Connection is enabled."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1671
+#: admin/class-mojito-shipping-admin.php:1833
+msgid "Proxy Connection disabled."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1681
+#: admin/class-mojito-shipping-admin.php:1843
+#: admin/class-mojito-shipping-admin.php:1881
+msgid "WooCommerce weight unit is \"g\""
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1684
+#: admin/class-mojito-shipping-admin.php:1846
+#: admin/class-mojito-shipping-admin.php:1884
+msgid "WooCommerce weight unit is \"kg\", conversion will be kg => g (1kg = 1000g)"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1687
+#: admin/class-mojito-shipping-admin.php:1849
+#: admin/class-mojito-shipping-admin.php:1887
+msgid "WooCommerce weight unit is \"lbs\", conversion will be lbs => g (1lbs = 453.59g)"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1690
+#: admin/class-mojito-shipping-admin.php:1852
+#: admin/class-mojito-shipping-admin.php:1890
+msgid "WooCommerce weight unit is \"oz\", conversion will be oz => g (1oz = 28.35g)"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1693
+#: admin/class-mojito-shipping-admin.php:1855
+#: admin/class-mojito-shipping-admin.php:1893
+msgid "The rate calculation does not include the collection amount. (Service provided by Correos de Costa Rica)"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1694
+#: admin/class-mojito-shipping-admin.php:1856
+#: admin/class-mojito-shipping-admin.php:1894
+msgid "The calculated cost is only an estimate and the price may change depending on the contract, cost table, rate adjustments, and final plant weight."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1695
+#: admin/class-mojito-shipping-admin.php:1857
+#: admin/class-mojito-shipping-admin.php:1895
+#: admin/class-mojito-shipping-admin.php:1926
+msgid "This information is intended to be used as an estimate."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1696
+#: admin/class-mojito-shipping-admin.php:1858
+#: admin/class-mojito-shipping-admin.php:1896
+msgid "The final cost of your bill may vary depending on the weight, area of origin and destination, policies in force at the time of shipment and the service contract."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1697
+#: admin/class-mojito-shipping-admin.php:1859
+#: admin/class-mojito-shipping-admin.php:1897
+msgid "Package delivery is Correos de Costa Rica's responsibility, Mojito Shipping can't guarantee the correct package delivery."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1717
+msgid "Curl is enabled"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1719
+msgid "Curl is not enabled"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1728
+msgid "Web Service Username is empty"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1730
+msgid "Web Service Username is set"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1735
+msgid "Web Service Password is empty"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1737
+msgid "Web Service Password is set"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1742
+msgid "Web Service User ID is empty"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1744
+msgid "Web Service User ID is set"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1749
+msgid "Web Service, Service ID is empty"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1751
+msgid "Web Service, Service ID is set"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1756
+msgid "Web Service Client Code is empty"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1758
+msgid "Web Service Client Code is set"
+msgstr ""
+
+#. translators: Sandbox or Producction.
+#: admin/class-mojito-shipping-admin.php:1762
+msgid "Environment: %s"
+msgstr ""
+
+#. translators: curl error.
+#: admin/class-mojito-shipping-admin.php:1816
+msgid "The Web Service URL cannot be reached from your website"
+msgstr ""
+
+#. translators: details.
+#: admin/class-mojito-shipping-admin.php:1919
+msgid "WooCommerce weight unit is \"%1$s\", the rate to use is %2$s%3$s per %4$s"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1935
+msgid "Products information"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1942
+msgid "Disclaimer"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1956
+msgid "If you like this plugin, please write a few words about it at <a href=\"https://wordpress.org/plugins/mojito-shipping\">wordpress.org</a>. Your opinion will help other people."
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1957
+msgid "If you want to know more about the PRO version, visit our website: <a href=\"https://mojitowp.com/\">mojitowp.com</a>"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:1958
+msgid "Need help with the settings?  Check our documentation: <a href=\"https://mojitowp.com/documentacion/pymexpress/\">mojitowp.com/documentacion</a> or write us to support@mojitowp.com"
+msgstr ""
+
+#. translators: details.
+#: admin/class-mojito-shipping-admin.php:2031
+msgid "Your lightest product weight %1$s%2$s and the heaviest %3$s%4$s."
+msgstr ""
+
+#. translators: total_products_without_weight.
+#: admin/class-mojito-shipping-admin.php:2037
+msgid "You have at least %s product without weight"
+msgstr ""
+
+#: admin/class-mojito-shipping-admin.php:2052
+#: admin/class-mojito-shipping-admin.php:2075
+msgid "All its products have defined weight"
+msgstr ""
+
+#. translators: total_variations_without_weight.
+#: admin/class-mojito-shipping-admin.php:2060
+msgid "You have %s variants without weight"
+msgstr ""
+
+#: admin/partials/mojito-shipping-admin-display.php:20
+msgid "Settings"
+msgstr ""
+
+#: admin/partials/mojito-shipping-require-plugins-wc-provincia-canton-distrito.php:30
+msgid "Mojito Shipping: Correos de Costa Rica requires WC Provincia Canton Distrito to be active."
+msgstr ""
+
+#: admin/partials/mojito-shipping-require-plugins-woocommerce.php:24
+msgid "Mojito Shipping Plugin requires WooCommerce to be active."
+msgstr ""
+
+#: includes/class-mojito-settings.php:295
+msgid "Filter settings:"
+msgstr ""
+
+#: includes/class-mojito-settings.php:297
+msgid "Type to search"
+msgstr ""
+
+#: includes/class-mojito-settings.php:397
+msgid "Save"
+msgstr ""
+
+#: includes/class-mojito-shipping-address.php:108
+#: includes/class-mojito-shipping-address.php:308
+msgid "State"
+msgstr ""
+
+#: includes/class-mojito-shipping-address.php:115
+#: includes/class-mojito-shipping-address.php:309
+msgid "City-District"
+msgstr ""
+
+#: includes/class-mojito-shipping-address.php:119
+#: includes/class-mojito-shipping-address.php:232
+#: includes/class-mojito-shipping-address.php:310
+msgid "Choose a city"
+msgstr ""
+
+#: includes/class-mojito-shipping-exchange-rate.php:57
+msgid "Exchange rate from Hacienda: %s"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr-simple.php:34
+#: includes/class-mojito-shipping-method-ccr-simple.php:38
+#: includes/class-mojito-shipping-method-ccr-simple.php:95
+msgid "Mojito Shipping: Correos de Costa Rica without integration"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr-simple.php:39
+msgid "Send packages using Correos de Costa Rica services manually"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr-simple.php:85
+#: includes/class-mojito-shipping-method-ccr.php:120
+#: includes/class-mojito-shipping-method-pymexpress.php:108
+#: includes/class-mojito-shipping-method-simple.php:75
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr-simple.php:87
+#: includes/class-mojito-shipping-method-ccr.php:122
+#: includes/class-mojito-shipping-method-pymexpress.php:110
+#: includes/class-mojito-shipping-method-simple.php:77
+msgid "Enable this shipping method"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr-simple.php:92
+#: includes/class-mojito-shipping-method-ccr.php:127
+#: includes/class-mojito-shipping-method-pymexpress.php:115
+#: includes/class-mojito-shipping-method-simple.php:82
+msgid "Title"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr-simple.php:94
+#: includes/class-mojito-shipping-method-ccr.php:129
+#: includes/class-mojito-shipping-method-pymexpress.php:117
+#: includes/class-mojito-shipping-method-simple.php:84
+msgid "Title to be display on site"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr-simple.php:116
+#: includes/class-mojito-shipping-method-ccr.php:43
+#: includes/class-mojito-shipping-method-ccr.php:47
+#: includes/class-mojito-shipping-method-ccr.php:130
+#: includes/class-mojito-shipping-method-ccr.php:151
+#: includes/class-mojito-shipping-method-pymexpress.php:44
+#: includes/class-mojito-shipping-method-pymexpress.php:139
+msgid "Mojito Shipping: Correos de Costa Rica"
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:138
+msgid "DEST_APARTADO cannot exceed 20 characters. Given: %1$s, \"%2$s\""
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:151
+msgid "SERVICIO cannot exceed 5 characters. Given: %1$s, \"%2$s\""
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:164
+msgid "DEST_DIRECCION cannot exceed 300 characters. Given: %1$s, \"%2$s\""
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:177
+msgid "DEST_NOMBRE cannot exceed 100 characters. Given: %1$s, \"%2$s\""
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:193
+msgid "DEST_TELEFONO cannot exceed 10 characters. Given: %1$s, \"%2$s\""
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:205
+msgid "DEST_ZIP cannot exceed 8 characters. Given: %1$s, \"%2$s\""
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:218
+msgid "ENVIO_ID cannot exceed 25 characters. Given: %1$s, \"%2$s\""
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:238
+msgid "ID_DISTRITO_DESTINO cannot exceed 30 characters. Given: %1$s, \"%2$s\""
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:250
+msgid "Bad MONTO_FLETE Given: %s"
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:263
+msgid "OBSERVACIONES cannot exceed 200 characters. Given: %1$s, \"%2$s\""
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:285
+msgid "CLIENTE_ID cannot exceed 10 characters. Given: %1$s, \"%2$s\""
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:298
+msgid "SEND_DIRECCION cannot exceed 300 characters. Given: %1$s, \"%2$s\""
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:311
+msgid "SEND_NOMBRE cannot exceed 100 characters. Given: %1$s, \"%2$s\""
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:324
+msgid "SEND_TELEFONO cannot exceed 50 characters. Given: %1$s, \"%2$s\""
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:337
+msgid "SEND_ZIP cannot exceed 8 characters. Given: %1$s, \"%2$s\""
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:349
+msgid "Invalid USUARIO_ID. Given: %1$s"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:421
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:715
+msgid "ccrRegistroEnvio aborted."
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:422
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:717
+msgid "Open WooCommerce logs"
+msgstr ""
+
+#. translators: URL.
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:424
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:719
+msgid " Register sending aborted due errors, check: %s"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:571
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:586
+msgid "There was an error with Correos de Costa Rica: "
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:572
+#: includes/class-mojito-shipping-method-ccr-webservice-client.php:587
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:190
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:899
+msgid "Checkout this documentation."
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr.php:48
+msgid "Send packages using Correos de Costa Rica services"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr.php:479
+#: includes/class-mojito-shipping-method-pymexpress.php:611
+msgid "shipping to"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr.php:480
+#: includes/class-mojito-shipping-method-pymexpress.php:612
+msgid "grams"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr.php:499
+#: includes/class-mojito-shipping-method-pymexpress.php:631
+#: includes/class-mojito-shipping-method-simple.php:203
+msgid "Free shipping"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-ccr.php:504
+#: includes/class-mojito-shipping-method-pymexpress.php:636
+msgid "Alert: The maximum weight allowed by Correos de Costa Rica is 30,000 grams (30 kg )"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:136
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:137
+msgid "Username or Password empty."
+msgstr ""
+
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:142
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:143
+msgid "auth_port or auth_url empty."
+msgstr ""
+
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:189
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:898
+msgid "There was an error with Correos de Costa Rica: %s"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:195
+msgid "Authentication issues."
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:799
+msgid "Empty parameter \"%1$s\" called from \"%2$s\"."
+msgstr ""
+
+#. translators: Param lenght and param data.
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:812
+msgid "\"%1$s\" cannot exceed %2$s characters. Given: %3$s, \"%4$s\" called from \"%5$s\""
+msgstr ""
+
+#: includes/class-mojito-shipping-method-pymexpress-webservice-client.php:822
+msgid "Bad \"%1$s\" Given: \"%2$s\" called from \"%3$s\""
+msgstr ""
+
+#: includes/class-mojito-shipping-method-pymexpress.php:48
+msgid "Mojito Shipping: Pymexpress"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-pymexpress.php:49
+msgid "Send packages using Pymexpress (Correos de Costa Rica) services"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-pymexpress.php:118
+msgid "Mojito Shipping: Correos de Costa Rica Pymexpress"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-simple.php:34
+#: includes/class-mojito-shipping-method-simple.php:38
+#: includes/class-mojito-shipping-method-simple.php:85
+#: includes/class-mojito-shipping-method-simple.php:106
+msgid "Mojito Shipping: Simple Weight-Based"
+msgstr ""
+
+#: includes/class-mojito-shipping-method-simple.php:39
+msgid "Weight-Based shipping method"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:524
+#: includes/class-mojito-shipping.php:1513
+msgid "Correos de Costa Rica Answer: "
+msgstr ""
+
+#: includes/class-mojito-shipping.php:585
+#: includes/class-mojito-shipping.php:1620
+msgid "Tracking"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:589
+#: includes/class-mojito-shipping.php:1624
+msgid "Show tracking details"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:592
+#: includes/class-mojito-shipping.php:723
+#: includes/class-mojito-shipping.php:1627
+#: includes/class-mojito-shipping.php:1758
+msgid "Date"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:593
+#: includes/class-mojito-shipping.php:724
+#: includes/class-mojito-shipping.php:1628
+#: includes/class-mojito-shipping.php:1759
+msgid "Event"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:594
+#: includes/class-mojito-shipping.php:725
+#: includes/class-mojito-shipping.php:1629
+#: includes/class-mojito-shipping.php:1760
+msgid "Location"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:624
+#: includes/class-mojito-shipping.php:1659
+msgid "Download Correos de Costa Rica Guide (PDF)"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:657
+#: includes/class-mojito-shipping.php:1692
+msgid "Guide number from Correos de Costa Rica: "
+msgstr ""
+
+#: includes/class-mojito-shipping.php:712
+#: includes/class-mojito-shipping.php:1747
+msgid "Package tracking"
+msgstr ""
+
+#. translators: date.
+#: includes/class-mojito-shipping.php:968
+#: includes/class-mojito-shipping.php:2020
+msgid "Created: %s"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:995
+#: includes/class-mojito-shipping.php:2047
+msgid "Sender details"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:997
+#: includes/class-mojito-shipping.php:2049
+msgid "Sender name:"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:998
+#: includes/class-mojito-shipping.php:1114
+#: includes/class-mojito-shipping.php:2050
+#: includes/class-mojito-shipping.php:2166
+msgid "Address:"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:999
+#: includes/class-mojito-shipping.php:1115
+#: includes/class-mojito-shipping.php:2051
+#: includes/class-mojito-shipping.php:2167
+msgid "Zip-code:"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1000
+#: includes/class-mojito-shipping.php:1127
+#: includes/class-mojito-shipping.php:2052
+#: includes/class-mojito-shipping.php:2179
+msgid "Phone:"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1001
+#: includes/class-mojito-shipping.php:2053
+msgid "Email:"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1099
+#: includes/class-mojito-shipping.php:2151
+msgid "Recipient details"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1101
+#: includes/class-mojito-shipping.php:2153
+msgid "Recipient name:"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1104
+#: includes/class-mojito-shipping.php:2156
+msgid "Company:"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1107
+#: includes/class-mojito-shipping.php:2159
+msgid "State:"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1110
+#: includes/class-mojito-shipping.php:2162
+msgid "Canton:"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1111
+#: includes/class-mojito-shipping.php:2163
+msgid "Distric:"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1165
+#: includes/class-mojito-shipping.php:2217
+msgid "Package details"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1167
+#: includes/class-mojito-shipping.php:2219
+msgid "Details:"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1191
+#: includes/class-mojito-shipping.php:2244
+msgid "Client notes"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1193
+#: includes/class-mojito-shipping.php:2246
+msgid "Client note:"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1483
+msgid "DEST_APARTADO is empty"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1486
+msgid "DEST_DIRECCION is empty"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1489
+msgid "DEST_NOMBRE is empty"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1492
+msgid "DEST_TELEFONO is empty"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1495
+msgid "DEST_ZIP is empty"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1498
+msgid "MONTO_FLETE is empty"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1501
+msgid "OBSERVACIONES is empty"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1504
+msgid "PESO is empty"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1541
+msgid "New Pymexpress guide for order: %s"
+msgstr ""
+
+#: includes/class-mojito-shipping.php:1542
+msgid "Please find attached the PDF Guide for the order %s"
+msgstr ""
+
+#. translators: PHP Version
+#: mojito-shipping.php:65
+msgid "Mojito Shipping requires PHP 7.4 or higher. You are running PHP %s, please deactivate Mojito Shipping until your PHP has been updated to 7.4 or higher."
+msgstr ""
