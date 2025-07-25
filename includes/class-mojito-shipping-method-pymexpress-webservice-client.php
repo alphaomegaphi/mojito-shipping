@@ -115,6 +115,53 @@ class Mojito_Shipping_Method_Pymexpress_WSC {
     }
 
     /**
+     * Ensure a PHP session is available when WooCommerce session is not.
+     *
+     * @return void
+     */
+    private function maybe_start_php_session() {
+        if ( PHP_SESSION_NONE === session_status() && ! headers_sent() ) {
+            session_start();
+        }
+    }
+
+    /**
+     * Retrieve a value from the session store.
+     *
+     * @param string $key     Session key.
+     * @param mixed  $default Default value.
+     * @return mixed
+     */
+    private function get_session_value( $key, $default = null ) {
+        if ( function_exists( 'WC' ) && isset( WC()->session ) ) {
+            $value = WC()->session->get( $key, null );
+            return null === $value ? $default : $value;
+        }
+
+        $this->maybe_start_php_session();
+
+        return isset( $_SESSION[ $key ] ) ? $_SESSION[ $key ] : $default;
+    }
+
+    /**
+     * Store a value in the session.
+     *
+     * @param string $key   Session key.
+     * @param mixed  $value Value to store.
+     * @return void
+     */
+    private function set_session_value( $key, $value ) {
+        if ( function_exists( 'WC' ) && isset( WC()->session ) ) {
+            WC()->session->set( $key, $value );
+            return;
+        }
+
+        $this->maybe_start_php_session();
+
+        $_SESSION[ $key ] = $value;
+    }
+
+    /**
      * Authentication method
      */
     private function auth() {
@@ -170,11 +217,14 @@ class Mojito_Shipping_Method_Pymexpress_WSC {
                 mojito_shipping_debug( __( 'Authentication issues.', 'mojito-shipping' ) );
                 return;
             }
-            $this->token = $response;
+            $this->token           = $response;
             $this->token_timestamp = time();
-            $_SESSION['ccr_token'] = array(
-                'token' => $this->token,
-                'time'  => $this->token_timestamp,
+            $this->set_session_value(
+                'ccr_token',
+                array(
+                    'token' => $this->token,
+                    'time'  => $this->token_timestamp,
+                )
             );
             return $this->token;
         }
@@ -185,15 +235,19 @@ class Mojito_Shipping_Method_Pymexpress_WSC {
      */
     public function get_token() {
         // Max token lifetime is 5 min. Due the connection timeout is 5 - 30 seconds we calculate 4 min 30 s.
-        if ( empty( $_SESSION['ccr_token']['time'] ) ) {
+        $session_token = $this->get_session_value( 'ccr_token', array() );
+
+        if ( empty( $session_token['time'] ) ) {
             return $this->auth();
         }
-        $current_token_time = $_SESSION['ccr_token']['time'];
+
+        $current_token_time = $session_token['time'];
+
         if ( time() - $current_token_time < 270 ) {
-            return $_SESSION['ccr_token']['token'];
-        } else {
-            return $this->auth();
+            return $session_token['token'];
         }
+
+        return $this->auth();
     }
 
     /**
@@ -992,16 +1046,14 @@ class Mojito_Shipping_Method_Pymexpress_WSC {
     }
 
     public function delay() {
-        $key = 'mojito_shipping_pymexpress_last_request_time';
-        if ( !isset( $_SESSION[$key] ) ) {
-            $_SESSION[$key] = round( microtime( true ) * 1000 );
-            return true;
-        }
-        $last_request_time = $_SESSION[$key];
+        $key               = 'mojito_shipping_pymexpress_last_request_time';
+        $last_request_time = $this->get_session_value( $key, 0 );
+
         if ( empty( $last_request_time ) ) {
-            $_SESSION[$key] = round( microtime( true ) * 1000 );
+            $this->set_session_value( $key, round( microtime( true ) * 1000 ) );
             return true;
         }
+
         $current_request_time = round( microtime( true ) * 1000 );
         $difference = $current_request_time - $last_request_time;
         $frecuency = 1000 / 1;
