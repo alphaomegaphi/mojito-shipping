@@ -99,14 +99,12 @@ class Mojito_Shipping_Public {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/mojito-shipping-public.js', array( 'jquery' ), $this->version, false );
+               wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/mojito-shipping-public.js', array( 'jquery' ), $this->version, false );
 
-		if ( 'yes' === get_option( 'mojito-shipping-ccr-pdf-export-in-customer-order' ) ) {
-			wp_localize_script(
-				$this->plugin_name,
-				'mojito_ajax',
-				array( 'ajax_url' => admin_url( 'admin-ajax.php' ) )
-			);
-		}
+               wp_localize_script(
+                       $this->plugin_name,
+                       'mojito_ajax',
+                       array( 'ajax_url' => admin_url( 'admin-ajax.php' ) )
+               );
 	}
 }

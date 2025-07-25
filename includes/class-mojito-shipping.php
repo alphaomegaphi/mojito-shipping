@@ -270,6 +270,11 @@ class Mojito_Shipping {
                  */
                 add_action( 'wp_ajax_mojito_shipping_ccr_manual_register_guide_number', array($this, 'ccr_manual_register') );
                 /**
+                 * Ajax Guide number request for checkout
+                 */
+                add_action( 'wp_ajax_mojito_shipping_ccr_get_guide_number', array($this, 'ccr_ajax_get_guide_number') );
+                add_action( 'wp_ajax_nopriv_mojito_shipping_ccr_get_guide_number', array($this, 'ccr_ajax_get_guide_number') );
+                /**
                  * Download PDF from admin
                  */
                 add_action( 'wp_ajax_mojito_shipping_ccr_download_pdf', array($this, 'ccr_pdf_download') );
@@ -356,7 +361,6 @@ class Mojito_Shipping {
         woocommerce_form_field( 'mojito_shipping_ccr_guide_number', array(
             'type'              => 'text',
             'class'             => array('hidden'),
-            'default'           => $this->ccr_ws_client->ccr_get_guide_number(),
             'custom_attributes' => array(
                 'readonly' => 'readonly',
             ),
@@ -649,6 +653,19 @@ class Mojito_Shipping {
             }
         }
         die;
+    }
+
+    /**
+     * Ajax handler: return CCR guide number
+     *
+     * @return void
+     */
+    public function ccr_ajax_get_guide_number() {
+        $guide_number = $this->ccr_ws_client->ccr_get_guide_number();
+        wp_send_json( array(
+            'success'      => ! empty( $guide_number ),
+            'guide_number' => $guide_number,
+        ) );
     }
 
     /**
