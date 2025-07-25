@@ -149,7 +149,6 @@ class Mojito_Shipping_Address {
             'canton'   => $canton_id,
             'district' => $distric_id,
         );
-        return array();
     }
 
     /**
