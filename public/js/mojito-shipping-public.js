@@ -1,5 +1,23 @@
 (function( $ ) {
-	'use strict';
+        'use strict';
+
+        $( function() {
+                var field = $( '#mojito_shipping_ccr_guide_number' );
+                if ( field.length && typeof mojito_ajax !== 'undefined' ) {
+                        $.post(
+                                mojito_ajax.ajax_url,
+                                { action: 'mojito_shipping_ccr_get_guide_number' },
+                                function( response ) {
+                                        try {
+                                                var data = JSON.parse( response );
+                                                if ( data.success ) {
+                                                        field.val( data.guide_number );
+                                                }
+                                        } catch (e) {}
+                                }
+                        );
+                }
+        });
 
 	 $(document).on('click', '.mojito-shipping-toggle-tracking', function(event) {
 		 event.preventDefault();
