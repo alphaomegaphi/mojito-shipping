@@ -135,16 +135,17 @@
 
 		var order_id = $(this).attr('id');
 
-		var data = {
-			action: 'mojito_shipping_ccr_manual_request_guide_number',			
-			order_id: order_id,
-		};
+                var data = {
+                        action: 'mojito_shipping_ccr_manual_request_guide_number',
+                        order_id: order_id,
+                        security: mojito_shipping_admin_ajax.nonce,
+                };
 
-		$.post('admin-ajax.php', data, function (response) {
-			if (response == 'true') {
-				location.reload();
-			}
-		});
+                $.post(mojito_shipping_admin_ajax.ajax_url, data, function (response) {
+                        if (response == 'true') {
+                                location.reload();
+                        }
+                });
 	});
 
 	/*
@@ -159,16 +160,17 @@
 
 		var order_id = $(this).attr('id');
 
-		var data = {
-			action: 'mojito_shipping_pymexpress_manual_request_guide_number',
-			order_id: order_id,
-		};
+                var data = {
+                        action: 'mojito_shipping_pymexpress_manual_request_guide_number',
+                        order_id: order_id,
+                        security: mojito_shipping_admin_ajax.nonce,
+                };
 
-		$.post('admin-ajax.php', data, function (response) {
-			if (response == 'true') {
-				location.reload();
-			}
-		});
+                $.post(mojito_shipping_admin_ajax.ajax_url, data, function (response) {
+                        if (response == 'true') {
+                                location.reload();
+                        }
+                });
 	});
 
 
@@ -184,16 +186,17 @@
 
 		var order_id = $(this).attr('id');
 
-		var data = {
-			action: 'mojito_shipping_ccr_manual_register_guide_number',
-			order_id: order_id,
-		};
+                var data = {
+                        action: 'mojito_shipping_ccr_manual_register_guide_number',
+                        order_id: order_id,
+                        security: mojito_shipping_admin_ajax.nonce,
+                };
 
-		$.post('admin-ajax.php', data, function (response) {
-			if (response == 'true') {
-				location.reload();
-			}
-		});
+                $.post(mojito_shipping_admin_ajax.ajax_url, data, function (response) {
+                        if (response == 'true') {
+                                location.reload();
+                        }
+                });
 	});
 
 	/*
@@ -208,16 +211,17 @@
 
 		var order_id = $(this).attr('id');
 
-		var data = {
-			action: 'mojito_shipping_pymexpress_manual_register_guide_number',
-			order_id: order_id,
-		};
+                var data = {
+                        action: 'mojito_shipping_pymexpress_manual_register_guide_number',
+                        order_id: order_id,
+                        security: mojito_shipping_admin_ajax.nonce,
+                };
 
-		$.post('admin-ajax.php', data, function (response) {
-			if (response == 'true') {
-				location.reload();
-			}
-		});
+                $.post(mojito_shipping_admin_ajax.ajax_url, data, function (response) {
+                        if (response == 'true') {
+                                location.reload();
+                        }
+                });
 	});
 
 	/*

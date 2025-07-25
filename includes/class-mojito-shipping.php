@@ -610,11 +610,15 @@ class Mojito_Shipping {
      * Useful when guide number request fail during the shopping
      */
     public function ccr_manual_request() {
+        if ( ! current_user_can( 'manage_woocommerce' ) ) {
+            wp_die();
+        }
+        check_ajax_referer( 'mojito_shipping_admin_nonce', 'security' );
         if ( isset( $_POST['order_id'] ) ) {
             $order_id = sanitize_text_field( $_POST['order_id'] );
             if ( !is_numeric( $order_id ) ) {
                 echo wp_json_encode( false );
-                die;
+                wp_die();
             }
             $guide_number = $this->ccr_ws_client->ccr_get_guide_number();
             $order = wc_get_order( $order_id );
@@ -623,36 +627,40 @@ class Mojito_Shipping {
             $comment_id = $this->ccr_thankyou_log_send( $order_id, true );
             if ( is_numeric( $comment_id ) ) {
                 echo wp_json_encode( true );
-                die;
+                wp_die();
             } else {
                 echo wp_json_encode( false );
-                die;
+                wp_die();
             }
         }
-        die;
+        wp_die();
     }
 
     /**
      * Manual register
      * Useful when register process fail during the shopping
-     */
+    */
     public function ccr_manual_register() {
+        if ( ! current_user_can( 'manage_woocommerce' ) ) {
+            wp_die();
+        }
+        check_ajax_referer( 'mojito_shipping_admin_nonce', 'security' );
         if ( isset( $_POST['order_id'] ) ) {
             $order_id = sanitize_text_field( $_POST['order_id'] );
             if ( !is_numeric( $order_id ) ) {
                 echo wp_json_encode( false );
-                die;
+                wp_die();
             }
             $comment_id = $this->ccr_thankyou_log_send( $order_id, true );
             if ( is_numeric( $comment_id ) ) {
                 echo wp_json_encode( true );
-                die;
+                wp_die();
             } else {
                 echo wp_json_encode( false );
-                die;
+                wp_die();
             }
         }
-        die;
+        wp_die();
     }
 
     /**
@@ -674,12 +682,12 @@ class Mojito_Shipping {
      */
     public function ccr_pdf_download() {
         if ( empty( $_POST['order_id'] ) ) {
-            die;
+            wp_die();
         }
         $order_id = sanitize_text_field( $_POST['order_id'] );
         if ( !is_numeric( $order_id ) ) {
             echo wp_json_encode( false );
-            die;
+            wp_die();
         }
         /**
          * Validate order
@@ -1163,7 +1171,7 @@ class Mojito_Shipping {
             'guide_number' => $guide_number,
         ) );
         wp_delete_file( $file );
-        die;
+        wp_die();
     }
 
     /**
@@ -1523,13 +1531,17 @@ class Mojito_Shipping {
     /**
      * Manual request
      * Useful when guide number request fail during the shopping
-     */
+    */
     public function pymexpress_manual_request() {
+        if ( ! current_user_can( 'manage_woocommerce' ) ) {
+            wp_die();
+        }
+        check_ajax_referer( 'mojito_shipping_admin_nonce', 'security' );
         if ( isset( $_POST['order_id'] ) ) {
             $order_id = sanitize_text_field( $_POST['order_id'] );
             if ( !is_numeric( $order_id ) ) {
                 echo wp_json_encode( false );
-                die;
+                wp_die();
             }
             $guide_number = $this->pymexpress_ws_client->generar_guia();
             $order = wc_get_order( $order_id );
@@ -1538,36 +1550,40 @@ class Mojito_Shipping {
             $comment_id = $this->pymexpress_thankyou_log_send( $order_id, true );
             if ( is_numeric( $comment_id ) ) {
                 echo wp_json_encode( true );
-                die;
+                wp_die();
             } else {
                 echo wp_json_encode( false );
-                die;
+                wp_die();
             }
         }
-        die;
+        wp_die();
     }
 
     /**
      * Manual register
      * Useful when register process fail during the shopping
-     */
+    */
     public function pymexpress_manual_register() {
+        if ( ! current_user_can( 'manage_woocommerce' ) ) {
+            wp_die();
+        }
+        check_ajax_referer( 'mojito_shipping_admin_nonce', 'security' );
         if ( isset( $_POST['order_id'] ) ) {
             $order_id = sanitize_text_field( $_POST['order_id'] );
             if ( !is_numeric( $order_id ) ) {
                 echo wp_json_encode( false );
-                die;
+                wp_die();
             }
             $comment_id = $this->pymexpress_thankyou_log_send( $order_id, true );
             if ( is_numeric( $comment_id ) ) {
                 echo wp_json_encode( true );
-                die;
+                wp_die();
             } else {
                 echo wp_json_encode( false );
-                die;
+                wp_die();
             }
         }
-        die;
+        wp_die();
     }
 
     /**
@@ -1579,13 +1595,13 @@ class Mojito_Shipping {
         if ( empty( $order_id ) ) {
             $ajax_call = true;
             if ( empty( $_POST['order_id'] ) ) {
-                die;
+                wp_die();
             }
             $order_id = sanitize_text_field( $_POST['order_id'] );
         }
         if ( !is_numeric( $order_id ) ) {
             echo wp_json_encode( false );
-            die;
+            wp_die();
         }
         /**
          * Validate order
@@ -2087,7 +2103,7 @@ class Mojito_Shipping {
         if ( $ajax_call ) {
             echo wp_json_encode( $response );
             wp_delete_file( $file );
-            die;
+            wp_die();
         } else {
             $response['path'] = $file;
             return $response;
