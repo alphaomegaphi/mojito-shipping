@@ -147,8 +147,8 @@ class Mojito_Shipping_Method_Pymexpress_WSC {
             CURLOPT_POSTFIELDS     => wp_json_encode( $body ),
             CURLOPT_HTTPHEADER     => array('Content-Type: application/json'),
             CURLOPT_CONNECTTIMEOUT => apply_filters( 'mojito_shipping_pymexpress_connection_time_out', 10 ),
-            CURLOPT_SSL_VERIFYPEER => false,
-            CURLOPT_SSL_VERIFYHOST => 0,
+            CURLOPT_SSL_VERIFYPEER => true,
+            CURLOPT_SSL_VERIFYHOST => 2,
             CURLOPT_VERBOSE        => true,
         );
         $parameters = $this->set_proxy_settings( $parameters );
@@ -884,8 +884,8 @@ class Mojito_Shipping_Method_Pymexpress_WSC {
             CURLOPT_POSTFIELDS     => $soap_fields,
             CURLOPT_FAILONERROR    => false,
             CURLOPT_HTTPHEADER     => array('Authorization: ' . $this->get_token(), 'Content-Type: text/xml; charset=utf-8', 'SOAPAction: http://tempuri.org/IwsAppCorreos/' . $method),
-            CURLOPT_SSL_VERIFYPEER => false,
-            CURLOPT_SSL_VERIFYHOST => false,
+            CURLOPT_SSL_VERIFYPEER => true,
+            CURLOPT_SSL_VERIFYHOST => 2,
             CURLOPT_VERBOSE        => true,
         );
         $parameters = $this->set_proxy_settings( $parameters );
