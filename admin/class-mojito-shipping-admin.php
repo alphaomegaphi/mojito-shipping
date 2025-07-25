@@ -78,6 +78,15 @@ class Mojito_Shipping_Admin extends Mojito_Settings {
             MOJITO_SHIPPING_VERSION,
             false
         );
+
+        wp_localize_script(
+            MOJITO_SHIPPING_SLUG,
+            'mojito_shipping_admin_ajax',
+            array(
+                'ajax_url' => admin_url( 'admin-ajax.php' ),
+                'nonce'    => wp_create_nonce( 'mojito_shipping_admin_nonce' ),
+            )
+        );
     }
 
     /**
