@@ -453,18 +453,32 @@ class Mojito_Shipping_Method_CCR_WSC {
                 'error'  => $e,
                 'libxml' => libxml_get_last_error(),
             ) );
-            echo __( 'There was an error with Correos de Costa Rica: ', 'mojito-shipping' ) . $e->getMessage() . "\n";
-            echo '<a href="https://mojitowp.com/documentacion/sistema-saliente/#3.11">' . __( 'Checkout this documentation.', 'mojito-shipping' ) . '</a>';
+            $message = __( 'There was an error with Correos de Costa Rica: ', 'mojito-shipping' ) . $e->getMessage();
             $this->log( sprintf( 'Error in service query: %s', $e->getMessage() ) );
+            if ( function_exists( 'wc_get_logger' ) ) {
+                wc_get_logger()->error( $message, array( 'source' => 'mojito-shipping-ccr' ) );
+            } else {
+                error_log( $message );
+            }
+            if ( wp_doing_ajax() ) {
+                wp_send_json_error( $message );
+            }
         } catch ( \SoapFault $s ) {
             $result = -1;
             mojito_shipping_debug( array(
                 'error'  => $e,
                 'libxml' => libxml_get_last_error(),
             ) );
-            echo __( 'There was an error with Correos de Costa Rica: ', 'mojito-shipping' ) . $s->getMessage() . "\n";
-            echo '<a href="https://mojitowp.com/documentacion/sistema-saliente/#3.11">' . __( 'Checkout this documentation.', 'mojito-shipping' ) . '</a>';
+            $message = __( 'There was an error with Correos de Costa Rica: ', 'mojito-shipping' ) . $s->getMessage();
             $this->log( sprintf( 'Error in service query: %s', $s->getMessage() ) );
+            if ( function_exists( 'wc_get_logger' ) ) {
+                wc_get_logger()->error( $message, array( 'source' => 'mojito-shipping-ccr' ) );
+            } else {
+                error_log( $message );
+            }
+            if ( wp_doing_ajax() ) {
+                wp_send_json_error( $message );
+            }
         }
         return $result;
     }

@@ -162,9 +162,16 @@ class Mojito_Shipping_Method_Pymexpress_WSC {
             mojito_shipping_debug( $response );
             mojito_shipping_debug( $info );
             mojito_shipping_debug( $err );
-            echo sprintf( __( 'There was an error with Correos de Costa Rica: %s', 'mojito-shipping' ), $err ) . "\n";
-            echo '<a href="https://mojitowp.com/documentacion/pymexpress/#3.11">' . __( 'Checkout this documentation.', 'mojito-shipping' ) . '</a>';
+            $message = sprintf( __( 'There was an error with Correos de Costa Rica: %s', 'mojito-shipping' ), $err );
             $this->log( 'error', sprintf( 'Error in auth query: %s', $err ) );
+            if ( function_exists( 'wc_get_logger' ) ) {
+                wc_get_logger()->error( $message, array( 'source' => 'mojito-shipping-pymexpress' ) );
+            } else {
+                error_log( $message );
+            }
+            if ( wp_doing_ajax() ) {
+                wp_send_json_error( $message );
+            }
         } else {
             if ( empty( $response ) ) {
                 mojito_shipping_debug( __( 'Authentication issues.', 'mojito-shipping' ) );
@@ -894,9 +901,16 @@ class Mojito_Shipping_Method_Pymexpress_WSC {
         mojito_shipping_debug( $method . ' ejectutado en ' . $this->environment['process_url'] );
         $err = curl_error( $curl );
         if ( $err ) {
-            echo sprintf( __( 'There was an error with Correos de Costa Rica: %s', 'mojito-shipping' ), $err ) . "\n";
-            echo '<a href="https://mojitowp.com/documentacion/pymexpress/#3.11">' . __( 'Checkout this documentation.', 'mojito-shipping' ) . '</a>';
+            $message = sprintf( __( 'There was an error with Correos de Costa Rica: %s', 'mojito-shipping' ), $err );
             $this->log( 'error', sprintf( 'Error in service query: %s', $err ) );
+            if ( function_exists( 'wc_get_logger' ) ) {
+                wc_get_logger()->error( $message, array( 'source' => 'mojito-shipping-pymexpress' ) );
+            } else {
+                error_log( $message );
+            }
+            if ( wp_doing_ajax() ) {
+                wp_send_json_error( $message );
+            }
             return;
         }
         // SimpleXML seems to have problems with the colon ":" in the <xxx:yyy> response tags, so take them out.
